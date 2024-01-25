@@ -1,0 +1,76 @@
+header
+riff xxxx bytecode
+exe
+exe
+exe
+exe
+exe
+
+content
+riff xxxx bytecode
+exe content
+exe content
+exe content
+exe content
+exe content
+cmd exe
+cmd content
+cmd exe
+cmd content
+cmd exe
+cmd content
+cmd exe
+cmd content
+cmd exe
+cmd content
+
+bytecode...
+cmd exe
+cmd content
+bytes exe
+bytes content
+bytes byte
+byte \b
+\b\b\b\b\b\b\b\b\n
+\b\b\b\b\b\b\b\b\n
+\b\b\b\b\b\b\b\b\n
+\b\b\b\b\b\b\b\b\n
+\b\b\b\b\b\b\b\b\n
+byte 1
+byte 2
+byte 3
+\b1111111\n
+\b1111112\n
+\b1111113\n
+
+bytecode...
+
+assembly script
+assembly script
+assembly script
+assembly script
+assembly script
+
+bytecode...
+
+assembly script byte code \b1111117\n
+assembly script byte code \b1111117\n
+assembly script byte code \b1111117\n
+....
+
+bytecode...
+
+footer
+riff xxxx bytecode ....
+riff
+exe
+cmd
+cmd exe
+cmd MAGIC NUMBER
+cmd EXE MAGIC NUMBER
+cmd SELF EXTRACTEOR MAGIC BYTECODE
+cmd MAGIC NUMBER 1
+cmd MAGIC NUMBER 2 //self extractor
+
+bytecode...
+

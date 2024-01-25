@@ -1,0 +1,21 @@
+documentation type header
+
+DOCUMENTATION MAGIC NUMBER BYTECODE
+TXT MAGIC NUMBER BYTECODE
+
+DOCUMENTTION MAGIC NUMBER BYTECODE...
+
+txt type header
+
+documentation type content
+
+DOCUMENTTION MAGIC NUMBER BYTECODE...
+
+txt type content
+
+documentation type footer
+
+DOCUMENTTION MAGIC NUMBER BYTECODE...
+
+txt type footer
+

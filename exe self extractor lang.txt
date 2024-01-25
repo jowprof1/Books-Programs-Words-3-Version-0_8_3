@@ -1,0 +1,27 @@
+website:
+https://learn.microsoft.com/en-us/troubleshoot/windows-client/deployment/command-switches-supported-by-self-extractor-package
+
+double click exe:
+runs using self extractor documentation
+
+run from cmd:
+runs using cmd documentation
+then runs using self exctractor documentation
+
+run from txt:
+run from cmd
+run using self extractor documentation
+use assembly documentation
+use cmd documentation
+use self extractor documentation
+use self extractor header documentation and content bytecode documentation
+or
+run assembly from a c compiler or console compiler
+or
+write assembly
+write exe self extractor header and content and footer bytecode
+
+run from cmd
+or
+run from double click self extractor
+

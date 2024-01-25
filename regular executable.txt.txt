@@ -1,0 +1,20 @@
+regular executable header (RIFF, xxxx)
+
+regular executable contents (RIFF, xxxx)
+
+regular executable BYTECODE (RIFF, xxxx)
+
+regular executable footer (RIFF, xxxx)
+
+//whats needed?:
+
+header RIFF syntax xxxx
+
+contents RIFF syntax xxxx
+
+BYTECODE RIFF syntax xxxx
+
+footer RIFF syntax xxxx
+
+//that's all?;
+

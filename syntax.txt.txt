@@ -1,0 +1,28 @@
+wav
+RIFF
+
+exe
+xxxx
+
+byte
+\n \t . x
+
+c
+header\n
+
+j
+header\n
+
+bytecode
+byte...
+byte\n...
+
+FORMAT:
+
+HEADER (RIFF, xxxx) \n
+
+BYTECODE (BYTE, xxxx) \n
+
+FOOTER
+
+

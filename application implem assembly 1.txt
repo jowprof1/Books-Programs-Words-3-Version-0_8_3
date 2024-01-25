@@ -1,0 +1,20 @@
+header
+riff xxxx bytecode
+
+content
+riff xxxx bytecode
+
+riff xxxx assembly header bytecode
+
+assembly script
+assembly script
+assembly script
+assembly script
+assembly script
+
+assembly script bytecode
+
+riff xxxx assembly footer bytecode
+
+footer
+riff xxxx bytecode

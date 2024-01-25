@@ -1,0 +1,15 @@
+syntax
+syntax
+syntax
+syntax
+from assembly documentation
+mingw...
+
+cmd 1
+cmd 2
+cmd 3
+cmd 4
+cmd 5
+
+cmd 100
+cmd 101...
