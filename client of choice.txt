@@ -1,0 +1,21 @@
+batch
+javascript
+html
+exe
+love2d
+blender
+animation
+from scratch in paint somehow
+c++ somehow
+c somehow
+
+preferebly
+from scratch in paint somehow and j lang
+or
+preferebly
+something like batch or javascript that obviously
+uses a predefined toolkit window from the os already available
+should just use html
+but
+c lang is preferable for some reason
+
