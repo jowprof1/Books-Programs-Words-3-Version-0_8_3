@@ -1,0 +1,15 @@
+var
+flash_drive
+var
+flash_drive_os
+var
+flash_drive_context
+
+func
+loadflashdrive
+flash_drive = 1
+flash_drive_os = 2
+flash_drive_context = 3
+
+loadflashdrive()
+

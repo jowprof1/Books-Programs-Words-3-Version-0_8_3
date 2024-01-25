@@ -1,0 +1,40 @@
+var 
+fun_code
+
+fun_code = 100
+
+func 
+fun_function
+var
+play_punk_music
+play_punk_music = 1
+
+var
+fun_code_sum
+fun_code_sum = fun_code + fun_function()
+
+var
+fun_array
+var
+fun_array_elem1
+var
+fun_array_elem2
+var
+fun_array_elem3
+
+fun_array = 1
+fun_array_elem1 = 1
+fun_array_elem2 = 2
+fun_array_elem3 = 3
+
+func
+fun_array_func
+var
+sum
+sum = fun_code_sum + fun_array_elem1
+sum = sum + fun_array_elem2
+sum = sum + fun_array_elem3
+return sum
+
+
+

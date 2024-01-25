@@ -1,0 +1,235 @@
+DisplayMyOsWindow()
+DisplayMyOsWindow()
+DisplayMyOsWindow()
+DisplayMyOsWindow()
+DisplayMyOsWindow()
+
+func
+MakeVisualApplication
+var
+textbox1
+var
+textbox2
+var
+textbox3
+var
+textbox4
+var
+textbox5
+textbox1 = 1
+textbox2 = 2
+textbox3 = 3
+textbox4 = 4
+textbox5 = 5
+DisplayMyOsWindow()
+
+MakeVisualApplication()
+MakeVisualApplication()
+MakeVisualApplication()
+MakeVisualApplication()
+MakeVisualApplication()
+
+var
+mystoredgameplayerapplication
+var
+mynativescript1
+var
+mynativescript2
+var
+mynativescript3
+var
+mynativescript4
+var
+mynativescript5
+mystoredgameplayerapplication = 1
+mynativescript1 = 2
+mynativescript2 = 3
+mynativescript3 = 4
+mynativescript4 = 5
+mynativescript5 = 6
+var
+my_as_j_script_game
+my_as_j_script_game=7
+
+var
+call_runstoredgameplayer
+call_runstoredgameplayer=8
+var
+call_runstoredapplication
+call_runstoredapplication=9
+var
+mynativescripts=10
+var
+call_callwithmynativescripts
+call_callwithmynativescripts = 11
+var
+call_rungame_as_j_script_game
+call_rungame_as_j_script_game = 12
+var
+j_script_game=13
+
+func
+MakeJGame
+return j_script_game
+
+MakeJGame()
+MakeJGame()
+MakeJGame()
+
+DisplayMyOsWindow()
+MakeVisualApplication()
+MakeJGame()
+
+func
+MakeJWidget
+DisplayMyOsWindow()
+MakeVisualApplication()
+MakeJGame()
+var
+native_widget
+var
+j_game
+native_widget = 1
+j_game=2
+j_game = j_game + MakeJGame()
+return j_game
+
+MakeJWidget()
+MakeJGame()
+
+MakeJWidget()
+MakeJGame()
+
+MakeJWidget()
+MakeJGame()
+
+MakeJWidget()
+MakeJGame()
+
+MakeJWidget()
+MakeJGame()
+
+DisplayMyOsWindow()
+MakeVisualApplication()
+MakeJGame()
+MakeJWidget()
+
+MakeJWidget()
+MakeJGame()
+
+func
+MakeNativeGame
+return 1
+
+func
+MakeNativeGameX
+return 2
+
+func
+MakePlayableJGame
+return 3
+
+func 
+makenativegameimplem
+var
+storedapplicationgame
+var
+sag_handle
+var
+sag_nativegamehandle
+var
+sag_nativegamexhandle
+var
+sag_playablejgame
+storedapplicationgame=1
+sag_handle=2
+sag_nativegamehandle=3
+sag_nativegamexhandle=4
+sag_playablejgame=5
+
+MakeNativeGame()
+MakeNativeGameX()
+MakePlayableJGame()
+makenativegameimplem()
+
+func
+makenativegameimplem2
+var
+storedapplicationgame
+var
+nativescript1
+var
+savedscriptlist
+var
+gameplussavedscriptlist
+var
+context
+var
+jgame
+var
+jgamescriptslot1
+var
+jgamescriptslot2
+var
+jgamescriptslot3
+storedapplicationgame=1
+nativescript1=2
+savedscriptlist=3
+gameplussavedscriptlist=4
+context=5
+jgame=6
+jgamescriptslot1=7
+jgamescriptslot2=8
+jgamescriptslot3=9
+return jgame
+
+makenativegameimplem2()
+
+func
+MakeNativeGameImplem3
+var
+myNativeGame
+myNativeGame = 1003
+return myNativeGame
+
+MakeNativeGameImplem3()
+
+var
+myNativeDisplay
+myNativeDisplay = 1004
+
+var
+myNativeGameX
+myNativeGameX = 1005
+var
+myNativeDisplayX
+myNativeDisplayX = 1006
+
+var
+myPlayableJGame
+myPlayableJGame = 1007
+var
+myPlayableJGameScreen
+myPlayableJGameScreen = 1008
+
+var
+myPlayableJGameDataList
+myPlayableJGameDataList=1009
+
+var
+myPlayableJGameDataListElem1
+myPlayableJGameDataListElem1=1010
+var
+myPlayableJGameDataListElem1000
+myPlayableJGameDataListElem1000=2010
+
+func
+GetMyPlayableJGameData1Index
+return myPlayableJGameDataListElem1
+
+func
+GetMyPlayableJGameData1000Index
+return myPlayableJGameDataListElem1000
+
+
+

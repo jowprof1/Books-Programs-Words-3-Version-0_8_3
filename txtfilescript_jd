@@ -1,0 +1,69 @@
+var
+txtfilescript
+var
+jfilescript
+var
+jdfilescript
+var
+jcfilescript
+var
+j_3_1script
+var
+j_0_0script
+
+var
+cscript
+var
+pythonscript
+var
+luascript
+var
+csharpscript
+var
+htmlscript
+var
+javascriptscript
+
+var
+bytecodescript
+var
+dllscript
+var
+exescript
+
+var
+linuxexescript
+var
+linuxdllscript
+
+var
+displayxscript
+var
+displaynatscript
+var
+displayscript
+
+txtfilescript = 1
+jfilescript = 2
+jdfilescript = 3
+jcfilescript = 4
+j_3_1script = 5
+j_0_0script = 6
+
+cscript = 7
+pythonscript = 8
+luascript = 9
+csharpscript = 10
+htmlscript = 11
+javascriptscript = 12
+
+bytecodescript = 13
+dllscript = 14
+exescript = 15
+
+linuxexescript = 16
+linuxdllscript = 17
+
+displayxscript = 18
+displaynatscript = 19
+displayscript = 20

@@ -1,0 +1,27 @@
+var
+TEXT_BOX_WindowTitle
+var
+TEXT_BOX_WindowXButton
+var
+TEXT_BOX_WindowTextBox
+
+TEXT_BOX_WindowTitle = 1
+TEXT_BOX_WindowXButton = 2
+TEXT_BOX_WindowTextBox = 3
+
+func
+MakeWindowTextBox
+var
+window_text_box
+var
+title
+var
+xbutton
+var
+textbox
+window_text_box = 1
+title = 2
+xbutton = 3
+textbox = 4
+return window_text_box
+

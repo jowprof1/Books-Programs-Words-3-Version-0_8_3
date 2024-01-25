@@ -1,0 +1,21 @@
+func
+makesecondarysharedprocess
+var
+os
+var
+dll
+var
+windowtextbox
+os=1
+dll=2
+windowtextbox=3
+var
+runningwindowtextbox=4
+return runningwindowtextbox
+
+makesecondarysharedprocess()
+makesecondarysharedprocess()
+makesecondarysharedprocess()
+makesecondarysharedprocess()
+makesecondarysharedprocess()
+

@@ -1,0 +1,52 @@
+var
+widget
+var
+os
+var
+textbox
+var
+script
+var
+file
+var
+game
+var
+flashcomputer
+
+flashcomputer = 1
+widget = 2
+
+var
+flashcompgame0
+flashcompgame0 = 3
+
+var
+widget0
+widget0 = 4
+
+var
+widget1
+widget1 = widget
+
+os = widget0
+textbox = 5
+
+script = 6
+file = 7
+game = 8
+
+func
+loadflashcomputer
+var
+myflashdrive
+myflashdrive = 1
+var
+myflashfile
+myflashfile = 2
+var
+myrunningflashapplication
+myrunningflashapplication = 3
+return myrunningflashapplication
+
+
+

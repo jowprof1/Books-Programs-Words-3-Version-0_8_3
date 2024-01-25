@@ -1,0 +1,35 @@
+var updateval
+var renderval
+ updateval = 0
+renderval = 0
+
+func update() {
+  updateval = updateval + 1
+}
+
+func render() {
+  renderval = renderval + 1
+}
+
+func mycoolerfunc() {
+  var tempgame
+  tempgame = 1
+
+  var window
+  var textbox1
+  var textbox2
+  var button
+  var label
+  var script
+
+  window = 1
+  textbox1 = 2
+  textbox2 = 3
+  button = 4
+  label = 5
+  script = 6
+
+
+  update()
+  render()
+}

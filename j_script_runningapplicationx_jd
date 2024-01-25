@@ -1,0 +1,53 @@
+var
+j_script_os
+var
+j_script_application
+var
+j_script_runningapplication
+var
+j_script_runningapplicationx
+var
+j_script_runningapplicationnat
+
+j_script_os = 1
+j_script_application = 2
+j_script_runningapplication = 3
+j_script_runningapplicationx = 4
+j_script_runningapplicationnat = 5
+
+var
+my_invoked_widget_script=7
+
+var
+my_invoked_j_script_runningapplicationx=8
+var
+my_invoked_j_script_runningapplicationnat = 9
+
+var
+my_invoked_j_script_runningapplication = 10
+
+func
+makeinvokedrunningapplication
+return my_invoked_j_script_runningapplication
+
+func
+makerunningapplication
+var
+scripts
+var
+runscriptsfromstoredapplicationnatively
+scripts = 1
+runscriptsfromstoredapplicationnatively = 2
+var
+myinvokedrunningapplication
+myinvokedrunningapplication = makeinvokedrunningapplication()
+var
+sum
+sum = myinvokedrunningapplication
+sum = sum + runscriptsfromstoredapplicationnatively
+return sum
+
+
+
+
+

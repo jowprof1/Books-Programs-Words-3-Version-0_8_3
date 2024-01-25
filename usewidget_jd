@@ -1,0 +1,126 @@
+var
+thistexteditor
+
+thistexteditor=1
+
+var
+thistexteditorezwidget
+var
+folderwidget
+
+thistexteditorezwidget = 2
+folderwidget = 3
+
+func
+usewidget 
+var
+filelist
+var
+folderlist
+var
+widgetvisitor
+var
+widgetvisitorfile
+var
+usablevisitorfile
+var
+fullwidget
+var
+fullapplication
+var
+usablewidget
+var
+visitorbasedwidget
+var
+htmlbasedwidget
+filelist = 1
+folderlist = 2
+widgetvisitor = 3
+widgetvisitorfile = 4
+fullwidget = 5
+fullapplication = 6
+usablewidget = 7
+visitorbasedwidget = 8
+htmlbasedwidget =9
+return htmlbasedwidget
+
+usewidget()
+usewidget()
+usewidget()
+
+func
+usehtmlwidget
+var
+load_html_script
+var
+run_html_script
+var
+run_as_j_script
+load_html_script = 1
+run_html_script = 2
+run_as_j_script = 3
+return run_as_j_script
+
+usehtmlwidget()
+usehtmlwidget()
+usehtmlwidget()
+
+var
+stored_application
+stored_application = 1
+usehtmlwidget()
+
+var
+cheap_computer
+var
+cheap_stored_application
+var
+cheap_used_widget
+
+cheap_computer = 1
+cheap_stored_application = 2
+cheap_used_widget = usehtmlwidget()
+
+var
+usable_cheap_computer
+var
+this_phone
+var
+usable_cheap_stored_application
+var
+this_phone_files_application
+
+this_phone = 1
+usable_cheap_computer = this_phone
+this_phone_files_application = 3
+usable_cheap_stored_application = this_phone_files_application
+
+usehtmlwidget()
+usehtmlwidget()
+usehtmlwidget()
+
+var
+runnable_native_script
+var
+readable_j_script
+var
+readable_native_script
+var
+convert_to_native_script
+var
+invoke_stored_application
+var
+invoke_with_filename_native_script
+
+runnable_native_script = 1
+readable_j_script = 2
+readable_native_script = 3
+convert_to_native_script = 4
+invoke_stored_application = 5
+invoke_with_filename_native_script = 6
+
+var
+invoked_widget_script = 7
+
+
+

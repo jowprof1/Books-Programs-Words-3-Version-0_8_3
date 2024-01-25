@@ -1,0 +1,173 @@
+func 
+makepicturevideo
+var
+picture_array
+var
+picture_array_elem1
+var
+picture_array_elem2
+var
+picture_array_elem3
+picture_array = 1
+picture_array_elem1 = 2
+picture_array_elem2 = 3
+picture_array_elem3 = 4
+return picture_array
+
+func
+makepicturevideoaudio
+var
+audio
+var
+audio_array
+var
+audio_elem1
+var
+audio_elem2
+var
+audio_elem3
+audio = 1
+audio_array = 2
+audio_elem1 = 3
+audio_elem2 = 4
+audio_elem3 = 5
+return audio
+
+makepicturevideoaudio()
+makepicturevideoaudio()
+makepicturevideoaudio()
+
+func
+makepicturevideodisplay
+var 
+display
+var
+displayx
+var
+displaynat
+display = 1
+displayx = 2
+displaynat = 3
+return display
+
+makepicturevideodisplay()
+
+func
+makepicturevideodll
+var
+dll
+var
+dllx
+var
+dllnat
+var
+app
+var
+appx
+var
+appnat
+var
+exefile
+var
+appicon
+var
+appfilehandle
+dll = 1
+dllx = 2
+dllnat = 3
+app = 4
+appx =5
+appnat = 6
+exefile = 7
+appicon = 8
+appfilehandle = 9
+return dll
+
+makepicturevideodll()
+
+func
+makepicturevideoexe
+var
+exefile
+var
+dllfile
+var
+movieplayerappfile
+var
+movieplayerapplink
+var
+movieplayerdlllink
+movieplayerappfile=1
+movieplayerapplink=2
+movieplayerappdlllink = 3
+dllfile=4
+var
+runningmovieplayer
+runningmovieplayer = 5
+var
+movieplayerexportedplayer
+movieplayerexportedplayer = 6
+var
+exportedplayershortcut
+exportedplayershortcut = 7
+exefile = 8
+
+makepicturevideoexe()
+
+func
+makepicturevideogame
+var
+picturevideoexe
+var
+picturevideoexedll
+var
+picturevideogamedll
+var
+picturevideogamehandle
+var
+picturevideogamenewwindow
+var
+callnewwindowfrompicvideoexe
+var
+holdnewwindowfrompicvideoexe
+var
+storeinpicvideogamedll
+var
+sendtopicvideoexedll
+var
+setpicturevideogamehandle
+var
+sendpicturevideogamehandle
+picturevideoexe = 1
+picturevideoexedll = 2
+picturevideogamedll = 3
+picturevideogamehandle = 4
+picturevideogamenewwindow = 5
+callnewwindowfrompicvideoexe = 6
+holdnewwindowfrompicvideoexe = 7
+storeinpicvideogamedll = 8
+sendtopicvideoexedll = 9
+setpicturevideogamehandle = 10
+sendpicturevideogamehandle = 11
+return picturevideogamehandle
+
+makepicturevideogame()
+
+func makepicturevideogameexe
+var
+picturevideogamehandle
+var
+writedll
+var
+writeexe
+var
+sendexe
+picturevideogamehandle = 1
+writedll = 2
+writeexe = 3
+sendexe = 4
+return sendexe
+
+
+
+

@@ -1,0 +1,215 @@
+var
+j_script
+var
+j_application
+var
+application_game
+var
+application_dll
+var
+application_exe
+
+var
+application_exe_file
+var
+application_run_file
+var
+application_shared_run_file
+
+j_script = 1
+j_application = 2
+application_game = 3
+application_dll = 4
+application_exe = 5
+
+application_exe_file = 6
+application_run_file = 7
+application_shared_run_file = 8
+
+var
+j_compiler
+var
+compile_the_script
+
+var
+make_the_application
+var
+make_the_game
+var
+make_the_shared_run_file
+var
+make_the_run_file
+
+j_compiler = 9
+compile_the_script=10
+make_the_application=11
+make_the_game=12
+make_the_shared_run_file=13
+make_the_run_file=14
+
+var
+os_for_j_scripts
+var
+os_for_linux_scripts
+var
+os_for_c_scripts
+var
+os_for_windows_scripts
+var
+os_for_mac_scripts
+var
+os_for_game_console_scripts
+var
+os_for_cheap_phone_scripts
+var
+os_for_smart_phone_scripts
+
+os_for_j_scripts = 15
+os_for_linux_scripts = 16
+os_for_c_scripts = 17
+os_for_windows_scripts = 18
+os_for_mac_scripts = 19
+os_for_game_console_scripts = 20
+os_for_cheap_phone_scripts = 21
+os_for_smart_phone_scripts = 22
+
+func
+runsharedjapplicationrunfile
+var
+os
+os = os_for_j_scripts
+var
+gamefileplayer
+gamefileplayer = 2
+var
+os_callthegamefileplayer
+os_callthegamefileplayer = 3
+var
+os_callwithsharedrunfilelocation
+os_callwithsharedrunfilelocation = 4
+var
+os_donecalling
+var
+os_donecalling = 1
+
+func
+runjapplicationrunfile
+var
+os
+os = os_for_j_scripts
+var
+gamefileplayer
+gamefileplayer = 2
+var
+os_callthegamefileplayer
+os_callthegamefileplayer = 3
+var
+os_callwithrunfilelocation
+os_callwithrunfilelocation = 4
+var
+os_donecalling
+var
+os_donecalling = 1
+
+var
+step_one_j_script
+var
+step_two_j_compiler
+var
+step_three_j_run_file
+var
+step_three_j_run_file_shared
+var
+step_three_j_run_file_standalone
+var
+step_four_os_j_script_runfilegameplayer
+var
+step_five_os_c_script_runfilegameplayer
+var
+step_six_os_linux_c_script_runfilegameplayer
+var
+step_seven_os_windows_script_runfilegameplayer
+var
+step_eight_os_mac_script_runfilegameplayer
+
+var
+extra_step_nine_os_game_console_script_runfilegameplayer
+var
+extra_step_ten_os_cheap_phone_runfilegameplayer
+var
+extra_step_eleven_os_smart_phone_runfilegameplayer
+
+step_one_j_script = 1
+step_two_j_compiler = 2
+step_three_j_run_file = 3
+step_three_j_run_file_shared = 4
+step_three_j_run_file_standalone = 5
+step_four_os_j_script_runfilegameplayer = 6
+step_five_os_c_script_runfilegameplayer = 7
+step_six_os_linux_c_script_runfilegameplayer = 8
+step_seven_os_windows_script_runfilegameplayer = 9
+step_eight_os_mac_script_runfilegameplayer = 10
+
+extra_step_nine_os_game_console_script_runfilegameplayer = 11
+extra_step_ten_os_cheap_phone_runfilegameplayer = 12
+extra_step_eleven_os_smart_phone_runfilegameplayer = 13
+
+func
+makejsharedrunfile
+var
+script
+var
+compiler
+script = 1
+compiler = 2
+var
+run_file_shared = 3
+return run_file_shared
+
+func
+makejstandalonerunfile
+var
+script
+var
+compiler
+script = 1
+compiler = 2
+var
+run_file_standalone = 4
+return run_file_standalone
+
+func
+makerunfilegameplayer
+var
+gameplayergame1handle
+gameplayergame1icon
+gameplayergame1standalone_c_file
+gameplayergame1standalone_c_file = 1
+gameplayergame1icon = 2
+gameplayergame1handle = 3
+return gameplayergame1handle
+
+makejsharedrunfile()
+makejsharedrunfile()
+makejsharedrunfile()
+
+makejstandalonerunfile()
+makejstandalonerunfile()
+makejstandalonerunfile()
+
+makerunfilegameplayer()
+makerunfilegameplayer()
+makerunfilegameplayer()
+
+var
+done_c
+var
+done_j
+var
+done_filegameplayer
+
+done_c = 1
+done_j = 1
+done_filegameplayer = 1
+
+

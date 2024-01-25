@@ -1,0 +1,18 @@
+var
+copy_num
+new_num
+num
+
+copy_num =1000
+new_num = 1000
+num = 1000
+
+func gettxtfiles
+return copy_num + new_num + num
+
+gettxtfiles()
+gettxtfiles()
+gettxtfiles()
+gettxtfiles()
+gettxtfiles()
+

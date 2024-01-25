@@ -1,0 +1,42 @@
+var
+OS
+var
+FILE
+var
+BooksProgramsWords3_Version_0_7_9
+var
+my_os_window
+
+OS = 1
+FILE = 2
+BooksProgramsWords3_Version_0_7_9 = 3
+my_os_window = 4
+
+func
+DisplayMyOsWindow
+var
+oscontext
+var
+applicationcontext
+var
+windowhandle
+oscontext = 1
+applicationcontext = 2
+windowhandle = 3
+var
+call_oscontext_screenbitmap
+var
+call_oscontext_processlist
+var
+call_oscontext_processlistcycleloop
+call_oscontext_screenbitmap = 4
+call_oscontext_processlist = 5
+call_oscontext_processlistcycleloop = 6
+var
+processhandle
+processhandle=7
+return processhandle
+
+
+
+

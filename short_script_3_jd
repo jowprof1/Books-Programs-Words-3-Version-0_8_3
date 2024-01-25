@@ -1,0 +1,25 @@
+func gettxtfiles2
+var a
+a = 0
+var b
+b = 0
+var c
+c = 0
+var d
+d = 0
+a = 1
+b = 10
+c = 100
+d = 1000
+var e
+e = a + b
+e = e + c
+e = e + d
+return e
+
+gettxtfiles2()
+gettxtfiles2()
+gettxtfiles2()
+gettxtfiles2()
+gettxtfiles2()
+
