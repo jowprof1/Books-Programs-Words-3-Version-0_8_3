@@ -1,0 +1,60 @@
+func OnWindowCallbackFunction1(var myWindow) {
+  
+}
+
+func OnWindowCallbackFunction2(var myWindow, var myWindowWasCalled) {
+  
+}
+
+func OnWindowRenderToFunction1(var myWindow) {
+  
+}
+
+func OnWindowRenderToFunction2(var myWindow, var myWindowWasRenderedTo) {
+  
+}
+
+func OnWindowWasClosed(var myWindow) {
+  //check if window was closed recently as a callback function
+  //return if it was closed or not
+}
+
+var windowProcessCounter;
+windowProcessCounter = 0;
+
+var windowNumberX;
+windowNumberX = 0;
+
+var windowNumberXProcessCounter;
+windowNumberXProcessCounter = 0;
+
+var callbackValueOnWindowWasClosed;
+var callbackValueOnWindowWasClosedWindowNumber;
+
+callbackValueOnWindowWasClosed = 0;
+callbackValueOnWindowWasClosedWindowNumber = 0;
+
+func CheckIfWindowWasClosed(var windowNumber) {
+  
+}
+
+func CallWindowWasClosed(var windowNumber) {
+  
+}
+
+func GetWindowWasClosed(var windowNumber) {
+  
+}
+
+func WindowCallbackProcess(var windowNumber) {
+  windowProcessCounter = windowProcessCounter + 1;
+  
+  windowNumberX = windowNumber;
+  windowNumberXProcessCounter = windowNumberXProcessCounter + 1;
+  
+  CheckIfWindowWasClosed(windowNumber);
+  CallWindowWasClosed(windowNumber);
+  
+  callbackValueOnWindowWasClosed = GetWindowWasClosed(windowNumber);
+  callbackValueOnWindowWasClosedWindowNumber = windowNumber;
+}

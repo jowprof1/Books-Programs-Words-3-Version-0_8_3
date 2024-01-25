@@ -1,0 +1,72 @@
+var applicationInterfaceData;
+applicationInterfaceData = 0;
+
+var data1;
+var data2;
+var data3;
+var data4;
+var data5;
+
+data1 = 0;
+data2 = 0;
+data3 = 0;
+data4 = 0;
+data5 = 0;
+
+func MakeApplicationInterfaceData() {
+  applicationInterfaceData = 1;
+  
+  data1 = 1;
+  data2 = 2;
+  data3 = 3;
+  data4 = 4;
+  data5 = 5;
+}
+
+var applicationDriverData;
+var driverData1;
+var driverData2;
+var driverData3;
+var driverData4;
+var driverData5;
+
+applicationDriverData = 0;
+driverData1 = 0;
+driverData2 = 0;
+driverData3 = 0;
+driverData4 = 0;
+driverData5 = 0;
+
+func MakeApplicationDriverData() {
+  applicationDriverData = 1;
+
+  driverData1 = 1;
+  driverData2 = 2;
+  driverData3 = 3;
+  driverData4 = 4;
+  driverData5 = 5;
+}
+
+var applicationStarterData;
+var starterData1;
+var starterData2;
+var starterData3;
+var starterData4;
+var starterData5;
+
+applicationStarterData = 0;
+starterData1 = 0;
+starterData2 = 0;
+starterData3 = 0;
+starterData4 = 0;
+starterData5 = 0;
+
+func MakeApplicationStarterData() {
+  applicationStarterData = 1;
+  
+  starterData1 = 1;
+  starterData2 = 2;
+  starterData3 = 3;
+  starterData4 = 4;
+  starterData5 = 5;
+}

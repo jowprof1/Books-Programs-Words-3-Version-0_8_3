@@ -1,0 +1,59 @@
+var texture1;
+var bitmap1;
+var tempColors1;
+var tempColors2;
+var tempColors3;
+var tempColors4;
+var tempColors5;
+
+texture1 = 0;
+bitmap1 = 0;
+tempColors1 = 0;
+tempColors2 = 0;
+tempColors3 = 0;
+tempColors4 = 0;
+tempColors5 = 0;
+
+var pal_red;
+var pal_green;
+var pal_blue;
+var pal_yellow;
+var pal_orange;
+
+pal_red = 0;
+pal_green = 0;
+pal_blue = 0;
+pal_yellow = 0;
+pal_orange = 0;
+
+var tempTextureToDraw;
+tempTextureToDraw = 0;
+var tempShouldDrawTexture;
+tempShouldDrawTexture = 0;
+
+func MakeTexturePalette(var PAL_RED, var PAL_GREEN, var PAL_BLUE, var PAL_YELLOW, var PAL_ORANGE) {
+  pal_red = PAL_RED;
+  pal_green = PAL_GREEN;
+  pal_blue = PAL_BLUE;
+  pal_yellow = PAL_YELLOW;
+  pal_orange = PAL_ORANGE;
+}
+
+func MakeTexture(var bitmap, var colors1, var colors2, var colors3, var colors4, var colors5) {
+  texture1 = 0;
+  bitmap1 = bitmap;
+  tempColors1 = colors1;
+  tempColors2 = colors2;
+  tempColors3 = colors3;
+  tempColors4 = colors4;
+  tempColors5 = colors5;
+  
+  texture1 = 1;
+  
+  return texture1;
+}
+
+func DrawTexture(var t) {
+  tempTextureToDraw = t;
+  tempShouldDrawTexture = 1;
+}

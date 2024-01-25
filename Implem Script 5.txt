@@ -1,0 +1,177 @@
+var rect;
+rect = 0;
+
+var last_rect;
+last_rect = 0;
+
+var my_rect_x;
+var my_rect_y;
+var my_rect_w;
+var my_rect_h;
+
+my_rect_x = 0;
+my_rect_y = 0;
+my_rect_w = 0;
+my_rect_h = 0;
+
+func MakeRect() {
+  rect = last_rect + 1;
+
+  my_rect_x = 0;
+  my_rect_y = 0;
+  my_rect_w = 0;
+  my_rect_h = 0;
+
+  last_rect = rect;
+
+  return rect;
+}
+
+func SetRectValues(var x, var y, var w, var h) {
+  my_rect_x = x;
+  my_rect_y = y;
+  my_rect_w = w;
+  my_rect_h = h;
+}
+
+var my_rect_array;
+var my_last_rect_array;
+
+var my_rect_array_number_one;
+var my_rect_array_number_two;
+var my_rect_array_number_three;
+var my_rect_array_number_four;
+var my_rect_array_number_five;
+
+my_rect_array = 0;
+my_last_rect_array = 0;
+
+my_rect_array_number_one = 0;
+my_rect_array_number_two = 0;
+my_rect_array_number_three = 0;
+my_rect_array_number_four = 0;
+my_rect_array_number_five = 0;
+
+func StoreRectInArray() {
+  my_rect_array = my_last_rect_array + 1;
+
+  my_last_rect_array = my_rect_array;
+
+  return my_rect_array;
+}
+
+var rect_array_n1_elem1;
+var rect_array_n1_elem2;
+var rect_array_n1_elem3;
+var rect_array_n1_elem4;
+
+rect_array_n1_elem1 = 0;
+rect_array_n1_elem2 = 0;
+rect_array_n1_elem3 = 0;
+rect_array_n1_elem4 = 0;
+
+func StoreRectInArrayNumberOne() {
+  my_rect_array_number_one = my_rect_array;
+
+  rect_array_n1_elem1 = my_rect_x;
+  rect_array_n1_elem2 = my_rect_y;
+  rect_array_n1_elem3 = my_rect_w;
+  rect_array_n1_elem4 = my_rect_h;
+}
+
+func MakeStoredRect() {
+  StoreRectInArray();
+  StoreRectInArrayNumberOne();
+}
+
+var rect_array_n2_elem1;
+var rect_array_n2_elem2;
+var rect_array_n2_elem3;
+var rect_array_n2_elem4;
+
+rect_array_n2_elem1 = 0;
+rect_array_n2_elem2 = 0;
+rect_array_n2_elem3 = 0;
+rect_array_n2_elem4 = 0;
+
+func StoreRectInArrayNumberTwo() {
+  my_rect_array_number_two = my_rect_array;
+
+  rect_array_n2_elem1 = my_rect_x;
+  rect_array_n2_elem2 = my_rect_y;
+  rect_array_n2_elem3 = my_rect_w;
+  rect_array_n2_elem4 = my_rect_h;
+}
+
+func MakeStoredRect_B() {
+  StoreRectInArrayNumberTwo();
+}
+
+var rect_array_n3_elem1;
+var rect_array_n3_elem2;
+var rect_array_n3_elem3;
+var rect_array_n3_elem4;
+
+rect_array_n3_elem1 = 0;
+rect_array_n3_elem2 = 0;
+rect_array_n3_elem3 = 0;
+rect_array_n3_elem4 = 0;
+
+func StoreRectInArrayNumberThree() {
+  my_rect_array_number_three = my_rect_array;
+
+  rect_array_n3_elem1 = my_rect_x;
+  rect_array_n3_elem2 = my_rect_y;
+  rect_array_n3_elem3 = my_rect_w;
+  rect_array_n3_elem4 = my_rect_h;
+}
+
+func MakeStoredRect_C() {
+  StoreRectInArrayNumberThree();
+}
+
+var rect_array_n4_elem1;
+var rect_array_n4_elem2;
+var rect_array_n4_elem3;
+var rect_array_n4_elem4;
+
+rect_array_n4_elem1 = 0;
+rect_array_n4_elem2 = 0;
+rect_array_n4_elem3 = 0;
+rect_array_n4_elem4 = 0;
+
+func StoreRectInArrayNumberFour() {
+  my_rect_array_number_four = my_rect_array;
+
+  rect_array_n4_elem1 = my_rect_x;
+  rect_array_n4_elem2 = my_rect_y;
+  rect_array_n4_elem3 = my_rect_w;
+  rect_array_n4_elem4 = my_rect_h;
+}
+
+func MakeStoredRect_D() {
+  StoreRectInArrayNumberFour();
+}
+
+var rect_array_n5_elem1;
+var rect_array_n5_elem2;
+var rect_array_n5_elem3;
+var rect_array_n5_elem4;
+
+rect_array_n5_elem1 = 0;
+rect_array_n5_elem2 = 0;
+rect_array_n5_elem3 = 0;
+rect_array_n5_elem4 = 0;
+
+func StoreRectInArrayNumberFive() {
+  my_rect_array_number_five = my_rect_array;
+
+  rect_array_n5_elem1 = my_rect_x;
+  rect_array_n5_elem2 = my_rect_y;
+  rect_array_n5_elem3 = my_rect_w;
+  rect_array_n5_elem4 = my_rect_h;
+}
+
+func MakeStoredRect_E() {
+  StoreRectInArrayNumberFive();
+}

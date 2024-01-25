@@ -1,0 +1,23 @@
+var Application;
+Application = 0;
+
+var ProcessCounter;
+ProcessCounter = 1;
+
+func OpenApplication() {
+  Application = 1;
+
+  
+}
+
+func RunApplication() {
+  var i;
+  i = 0;
+  for(i = 0; i < 1000; i = i + 1) {
+    ProcessCounter = ProcessCounter + 1;
+  }
+}
+
+func CloseApplication() {
+  Application = 0;
+}

@@ -1,0 +1,97 @@
+var window1;
+window1 = 0;
+
+var nativeRunningHandle1;
+nativeRunningHandle1 = 0;
+
+var windowCallbackHandle1;
+windowCallbackHandle1 = 0;
+
+var windowIsOpen;
+var windowIsOpenNumber;
+
+windowIsOpen = 0;
+windowIsOpenNumber = 0;
+
+var windowCallbackIsBegin;
+var winodwCallbackIsBeginNumber;
+
+windowCallbackIsBegin = 0;
+windowCallbackIsBeginNumber = 0;
+
+var windowCallbackIsEnd;
+var windowCallbackIsEndNumber;
+
+windowCallbackIsEnd = 0;
+windowCallbackIsEndNumber = 0;
+
+var windowWasClosed;
+var windowWasClosedNumber;
+
+windowWasClosed = 0;
+windowWasClosedNumber = 0;
+
+var windowWasDestroyed;
+var windowWasDestroyedNumber;
+
+windowWasDestroyed = 0;
+windowWasDestroyedNumber = 0;
+
+var nativeRunningHandleWasDestroyed;
+var nativeRunningHandleWasDestroyedNumber;
+
+nativeRunningHandleWasDestroyed = 0;
+nativeRunningHandleWasDestroyedNumber = 0;
+
+func MakeWindow() {
+  window1 = 1;
+  
+  return window1;
+}
+
+func MakeNativeRunningHandle(var myWindow) {
+  nativeRunningHandle1 = 1;
+  
+  return nativeRunningHandle1;
+}
+
+func MakeWindowCallbackHandle(var myWindow) {
+  windowCallbackHandle1 = 1;
+  
+  return windowCallbackHandle1;
+}
+
+func OpenWindow(var myWindow) {
+  windowIsOpen = 1;
+  windowIsOpenNumber = myWindow;
+}
+
+func BeginWindowCallback(var myWindow) {
+  windowCallbackIsBegin = 1;
+  windowCallbackIsBeginNumber = myWindow;
+}
+
+func EndWindowCallback(var myWindow) {
+  windowCallbackIsEnd = 0;
+  windowCallbackIsEndNumber = myWindow;
+}
+
+func CloseWindow(var myWindow) {
+  windowWasClosed = 1;
+  windowWasClosedNumber = myWindow;
+  
+  windowIsOpen = 0;
+  windowIsOpenNumber = myWindow;
+}
+
+func DestroyWindow(var myWindow) {
+  windowWasDestroyed = 1;
+  windowWasDestroyedNumber = myWindow;
+  
+  
+}
+
+func DestroyNativeRunningHandle(var myNativeRunningHandle) {
+  nativeRunningHandleWasDestroyed = 1;
+  nativeRunningHandleWasDestroyedNumber = myNativeRunningHandle;
+}

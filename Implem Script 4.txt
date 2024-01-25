@@ -1,0 +1,56 @@
+var my_glyph_array_entry;
+var my_glyph_value_entry;
+var my_glyph_entry;
+var my_glyph_entry_name;
+var my_glyph_entry_value;
+
+my_glyph_array_entry = 0;
+my_glyph_value_entry = 0;
+my_glyph_entry = 0;
+my_glyph_entry_name = 0;
+my_glyph_entry_value = 0;
+
+var my_replacable_entry;
+var my_replacable_entry_label;
+var my_replacable_entry_name;
+var my_replacable_entry_value;
+
+my_replacable_entry = 0;
+my_replacable_entry_label = 0;
+my_replacable_entry_name = 0;
+my_replacable_entry_value = 0;
+
+var my_entry_structure;
+my_entry_structure = 0;
+
+var my_entry;
+var my_last_entry;
+my_entry = 0;
+my_last_entry = 0;
+
+var my_entry_array;
+var my_entry_array_b;
+var my_entry_array_c;
+var my_entry_array_d;
+var my_entry_array_e;
+my_entry_array = 0;
+my_entry_array_b = 0;
+my_entry_array_c = 0;
+my_entry_array_d = 0;
+my_entry_array_e = 0;
+
+func MakeEntry() {
+  MakeTextBoxGlyphArray(1, 2, 3, 4, 5);
+  MakeTextBoxGlyphArray_B();
+  MakeTextBoxGlyphArray_C();
+  MakeTextBoxGlyphArray_D();
+  MakeTextBoxGlyphArray_E();
+
+  my_entry = my_last_entry + 1;
+  
+  my_last_entry = my_entry;
+
+  return my_entry;
+}
+
+

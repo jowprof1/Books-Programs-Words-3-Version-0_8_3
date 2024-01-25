@@ -1,0 +1,87 @@
+var my_glyph;
+my_glyph = 0;
+
+var last_glyph;
+last_glyph = 0;
+
+func MakeGlyph() {
+  my_glyph = last_glyph + 1;
+
+  last_glyph = my_glyph;
+
+  return my_glyph;
+}
+
+var my_glyph_sum;
+my_glyph_sum = 0;
+
+var last_glyph_sum;
+last_glyph_sum = 0;
+
+func MakeGlyphs() {
+  var glyph1;
+  var glyph2;
+  var glyph3;
+  var glyph4;
+  var glyph5;
+
+  glyph1 = MakeGlyph();
+  glyph2 = MakeGlyph();
+  glyph3 = MakeGlyph();
+  glyph4 = MakeGlyph();
+  glyph5 = MakeGlyph();
+
+  var glyph_sum;
+  glyph_sum = glyph1;
+  glyph_sum = glyph_sum + glyph2;
+  glyph_sum = glyph_sum + glyph3;
+  glyph_sum = glyph_sum + glyph4;
+  glyph_sum = glyph_sum + glyph5;
+
+  my_glyph_sum = glyph_sum;
+
+  last_glyph_sum = my_glyph_sum;
+
+  return my_glyph_sum;
+}
+
+var my_number;
+
+var my_last_number;
+
+my_number = 0;
+my_last_number = 0;
+
+func MakeNumber() {
+  my_number = my_last_number + 1;
+
+  my_last_number = my_number;
+
+  return my_number;
+}
+
+var my_letter;
+my_letter = 0;
+
+var my_letter_glyph;
+var my_letter_name;
+var my_letter_number;
+
+my_letter_glyph = 0;
+my_letter_name = 0;
+my_letter_number = 0;
+
+var last_letter;
+last_letter = 0;
+
+var MakeLetter() {
+  my_letter = last_letter + 1;
+
+  my_letter_glyph = MakeGlyph();
+  my_letter_name = MakeGlyphs();
+  my_letter_number = my_letter;
+
+  last_letter = my_letter;
+
+  return my_letter;
+}

@@ -1,0 +1,25 @@
+var scriptLoader1;
+scriptLoader1 = 0;
+
+var scriptLoader2;
+scriptLoader2 = 0;
+
+var scriptLoader3;
+scriptLoader3 = 0;
+
+func MakeScriptLoaderHandle() {
+  scriptLoader1 = 1;
+  return scriptLoader1;
+}
+
+func LoadScript(var scriptLoaderHandle, var scriptName) {
+  
+}
+
+func RunScript(var scriptLoaderHandle, var scriptNumber) {
+  
+}
+
+func DestroyScript(var scriptNumber) {
+  
+}

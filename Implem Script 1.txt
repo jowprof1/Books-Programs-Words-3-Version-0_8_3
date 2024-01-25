@@ -1,0 +1,134 @@
+var TEXT_BOX_GLYPH_LETTER_1;
+var TEXT_BOX_GLYPH_LETTER_2;
+var TEXT_BOX_GLYPH_LETTER_3;
+var TEXT_BOX_GLYPH_LETTER_4;
+var TEXT_BOX_GLYPH_LETTER_5;
+
+TEXT_BOX_GLYPH_LETTER_1 = 1;
+TEXT_BOX_GLYPH_LETTER_2 = 2;
+TEXT_BOX_GLYPH_LETTER_3 = 3;
+TEXT_BOX_GLYPH_LETTER_4 = 4;
+TEXT_BOX_GLYPH_LETTER_5 = 5;
+
+var TEXT_BOX_GLYPH_ARRAY_15;
+var TEXT_BOX_GLYPH_ARRAY_15_B;
+var TEXT_BOX_GLYPH_ARRAY_15_C;
+var TEXT_BOX_GLYPH_ARRAY_15_D;
+var TEXT_BOX_GLYPH_ARRAY_15_E;
+
+TEXT_BOX_GLYPH_ARRAY_15 = 116;
+TEXT_BOX_GLYPH_ARRAY_15_B = 117;
+TEXT_BOX_GLYPH_ARRAY_15_C = 118;
+TEXT_BOX_GLYPH_ARRAY_15_D = 119;
+TEXT_BOX_GLYPH_ARRAY_15_E = 120;
+
+var my_text_box_glyph_array;
+my_text_box_glyph_array = 0;
+
+var last_text_box_glyph_array;
+last_text_box_glyph_array = 0;
+
+var my_text_box_glyph_array_letter_number_one;
+var my_text_box_glyph_array_letter_number_two;
+var my_text_box_glyph_array_letter_number_three;
+var my_text_box_glyph_array_letter_number_four;
+var my_text_box_glyph_array_letter_number_five;
+
+my_text_box_glyph_array_letter_number_one = 0;
+my_text_box_glyph_array_letter_number_two = 0;
+my_text_box_glyph_array_letter_number_three = 0;
+my_text_box_glyph_array_letter_number_four = 0;
+my_text_box_glyph_array_letter_number_five = 0;
+
+func MakeTextBoxGlyphArray(var glyph1, var glyph2, var glyph3, var glyph4, var glyph5) {
+  my_text_box_glyph_array = last_text_box_glyph_array + 1;
+
+  my_text_box_glyph_array_letter_number_one = glyph1;
+  my_text_box_glyph_array_letter_number_two = glyph2;
+  my_text_box_glyph_array_letter_number_three = glyph3;
+  my_text_box_glyph_array_letter_number_four = glyph4;
+  my_text_box_glyph_array_letter_number_five = glyph5;
+
+  last_text_box_glyph_array = my_text_box_glyph_array;
+}
+
+var text_box_array_b_number_one;
+var text_box_array_b_number_two;
+var text_box_array_b_number_three;
+var text_box_array_b_number_four;
+var text_box_array_b_number_five;
+
+text_box_array_b_number_one = 0;
+text_box_array_b_number_two = 0;
+text_box_array_b_number_three = 0;
+text_box_array_b_number_four = 0;
+text_box_array_b_number_five = 0;
+
+func MakeTextBoxGlyphArray_B() {
+  text_box_array_b_number_one = my_text_box_glyph_array_letter_number_one;
+  text_box_array_b_number_two = my_text_box_glyph_array_letter_number_two;
+  text_box_array_b_number_three = my_text_box_glyph_array_letter_number_three;
+  text_box_array_b_number_four = my_text_box_glyph_array_letter_number_four;
+  text_box_array_b_number_five = my_text_box_glyph_array_letter_number_five;
+}
+
+var text_box_array_c_number_one;
+var text_box_array_c_number_two;
+var text_box_array_c_number_three;
+var text_box_array_c_number_four;
+var text_box_array_c_number_five;
+
+text_box_array_c_number_one = 0;
+text_box_array_c_number_two = 0;
+text_box_array_c_number_three = 0;
+text_box_array_c_number_four = 0;
+text_box_array_c_number_five = 0;
+
+func MakeTextBoxGlyphArray_C() {
+  text_box_array_c_number_one = my_text_box_glyph_array_letter_number_one;
+  text_box_array_c_number_two = my_text_box_glyph_array_letter_number_two;
+  text_box_array_c_number_three = my_text_box_glyph_array_letter_number_three;
+  text_box_array_c_number_four = my_text_box_glyph_array_letter_number_four;
+  text_box_array_c_number_five = my_text_box_glyph_array_letter_number_five;
+}
+
+var text_box_array_d_number_one;
+var text_box_array_d_number_two;
+var text_box_array_d_number_three;
+var text_box_array_d_number_four;
+var text_box_array_d_number_five;
+
+text_box_array_d_number_one = 0;
+text_box_array_d_number_two = 0;
+text_box_array_d_number_three = 0;
+text_box_array_d_number_four = 0;
+text_box_array_d_number_five = 0;
+
+func MakeTextBoxGlyphArray_D() {
+  text_box_array_d_number_one = my_text_box_glyph_array_letter_number_one;
+  text_box_array_d_number_two = my_text_box_glyph_array_letter_number_two;
+  text_box_array_d_number_three = my_text_box_glyph_array_letter_number_three;
+  text_box_array_d_number_four = my_text_box_glyph_array_letter_number_four;
+  text_box_array_d_number_five = my_text_box_glyph_array_letter_number_five;
+}
+
+var text_box_array_e_number_one;
+var text_box_array_e_number_two;
+var text_box_array_e_number_three;
+var text_box_array_e_number_four;
+var text_box_array_e_number_five;
+
+text_box_array_e_number_one = 0;
+text_box_array_e_number_two = 0;
+text_box_array_e_number_three = 0;
+text_box_array_e_number_four = 0;
+text_box_array_e_number_five = 0;
+
+func MakeTextBoxGlyphArray_E() {
+  text_box_array_e_number_one = my_text_box_glyph_array_letter_number_one;
+  text_box_array_e_number_two = my_text_box_glyph_array_letter_number_two;
+  text_box_array_e_number_three = my_text_box_glyph_array_letter_number_three;
+  text_box_array_e_number_four = my_text_box_glyph_array_letter_number_four;
+  text_box_array_e_number_five = my_text_box_glyph_array_letter_number_five;
+}
+

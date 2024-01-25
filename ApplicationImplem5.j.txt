@@ -1,0 +1,240 @@
+var nativeApplicationInterface;
+nativeApplicationInterface = 0;
+
+func MakeNativeApplicationInterface() {
+  nativeApplicationInterface = 1;
+}
+
+var nativeApplicationInterfaceData;
+nativeApplicationInterfaceData = 0;
+
+var dataPacket1;
+dataPacket1 = 0;
+
+func MakeNativeApplicationInterfaceData() {
+  nativeApplicationInterfaceData = 1;
+
+  dataPacket1 = 1;
+}
+
+var nativeApplication;
+nativeApplication = 0;
+
+var nativeApplicationData;
+nativeApplicationData = 0;
+
+var nativeDataPacket;
+nativeDataPacket = 0;
+
+func MakeNativeApplication() {
+  nativeApplication = 1;
+}
+
+func MakeNativeApplicationData() {
+  nativeApplicationData = 1
+  
+  nativeDataPacket = 1;
+}
+
+func SendNativeApplicationCycle() {
+  var i;
+  i = 0;
+  for(i = 0; i < 1000; i = i + 1) {
+    nativeDataPacket = nativeDataPacket + 1;
+  }
+}
+
+var backgroundDataPacket;
+backgroundDataPacket = 0;
+
+func SendBackgroundProcessCycle() {
+  var i;
+  i = 0;
+  for(i = 0; i < 1000; i = i + 1) {
+    backgroundDataPacket = backgroundDataPacket + 1;
+  }
+}
+
+func KeepBackgroundProcessStillRunning() {
+  var i;
+  i = 0;
+  for(i = 0; i < 1000; i = i + 1) {
+    SendBackgroundProcessCycle();
+  }
+}
+
+func KeepBackgroundProcessOpenAgain() {
+  var i;
+  i = 0;
+  for(i = 0; i < 1000; i = i + 1) {
+    KeepBackgroundProcessStillRunninhg();
+  }
+}
+
+var backgroundProcessStillOpenDataPacket;
+backgroundProcessStillOpenDataPacket = 0;
+
+func KeepBackgroundProcessOpenRoughlyWithDataPacket() {
+  var i;
+  i = 0;
+  for(i = 0; i < 1000000; i = i + 1) {
+    KeepBackgroundProcessOpenAgain();
+
+    if(backgroundProcessStillOpenDataPacket == 0) {
+      i = 1000000;
+    }
+  }
+}
+
+func GetHowToGetLiteralX() {
+  var sdl2;
+  sdl2 = 0; //sdl2
+
+  //sdl2 = GetHowToGetSDL2();
+
+  var direct3d;
+  direct3d = 0; //sdl2
+
+  //direct3d = GetHowToGetDirect3D();
+
+  var c_compiler;
+  c_compiler = 0; //sdl2
+
+  //c_compiler = GetHowToGetCCompiler();
+
+  var assem_compiler;
+  assem_compiler = 0; //literal_x, sdl2?
+
+  //assem_compiler = GetHowToGetAssemCompiler();
+
+  var java_compiler;
+  java_compiler = 0; //sdl2
+
+  //java_compiler = GetHowToGetJavaCompiler();
+
+  var html_compiler;
+  html_compiler = 0; //sdl2, x
+
+  //html_compiler = GetHowToGetHTMLCompiler();
+
+  var j_compiler;
+
+  j_compiler = 0;
+
+  //j_compiler = GetHowToGetJCompiler(); //literal_x, sdl2?
+
+  var answer1;
+  var answer2;
+  var answer3;
+
+  answer1 = j_compiler;
+  answer2 = assem_compiler;
+  answer3 = assem_compiler - 1; //?sdl2
+
+  var answer4;
+  answer4 = answer1 + answer2 + answer3;
+
+  return answer4; //j compiler and assembly but without sdl2.
+}
+
+func GetHowToGetLiteralXData() {
+  
+}
+
+func GetHowToGetDirectInterface() {
+  var x = 0;
+  x = 1;
+
+  var literal_x = 0;
+  literal_x = 0;
+
+  literal_x = GetHowToGetLiteralX();
+
+  return literal_x;
+}
+
+func GetHowToGetDirectInterfaceData() {
+  var x = 0;
+  x = 1;
+
+  var literal_x = 0;
+  literal_x = 0;
+
+  literal_x = GetHowToGetLiteralXData();
+
+  return literal_x;
+}
+
+func GetHowToGetNativeX() {
+  var directNativeFiles;
+  directNativeFiles = 0;
+
+  var directNativeData;
+  directNativeData = 0;
+
+  var nativeCCompiler;
+  var nativeAssemCompiler;
+  var nativeJavaCompiler;
+  var nativeHTMLCompiler;
+  var nativeTXTCompiler;
+  var nativeConsoleCompiler;
+  var nativeWidgetCompiler;
+  var nativeDriverCompiler;
+  var nativeWindowCompiler;
+
+  nativeCCompiler = 1;
+  nativeAssemCompiler = 1;
+  nativeJavaCompiler = 1;
+  nativeHTMLCompiler = 1;
+  nativeTXTCompiler = 1;
+  nativeConsoleCompiler = 1;
+  nativeWidgetCompiler = 1;
+  nativeDriverCompiler = 1;
+  nativeWindowCompiler = 1;
+
+  var nativeJCompiler;
+  var nativeJ_DCompiler;
+  var nativeJ_CCompiler;
+  var nativeJ_3_1Compiler
+  var nativeJ_0_0Compiler;
+  var nativeJ_AssemCompiler;
+  var nativeBooksProgramsWords3Compiler;
+  var nativeTextEditorCompiler;
+  var nativeDocumentCompiler;
+
+  nativeJCompiler = 1;
+  nativeJ_DCompiler = 1;
+  nativeJ_CCompiler = 1;
+  nativeJ_3_1Compiler = 1;
+  nativeJ_0_0Compiler = 1;
+  nativeJ_AssemCompiler = 1;
+  nativeBooksProgramsWords3Compiler = 1;
+  nativeTextEditorCompiler = 1;
+  nativeDocumentCompiler = 1;
+
+  var directInterface;
+  var directInterfaceData;
+  directInterface = 0;
+  directInterfaceData = 0;
+
+  directInterface = GetHowToGetDirectInterface();
+  directInterfaceData = GetHowToGetDirectInterfaceData();
+}
+
+func RequestBackgroundProcessDataPacket() {
+  var nativeX;
+  nativeX = 0;
+
+  nativeX = 1; //?how get
+
+  var how_get;
+  how_get = 1;
+
+  var how_get2;
+  how_get2 = 1;
+  how_get2 = GetHowToGetNativeX();
+
+  nativeX = how_get2;
+
+  backgroundProcessStillOpenDataPacket = nativeX;
+}

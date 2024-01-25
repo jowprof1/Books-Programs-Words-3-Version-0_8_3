@@ -1,0 +1,30 @@
+var ApplicationInterface;
+var ApplicationDriver;
+var ApplicationStarter;
+
+ApplicationInterface = 0;
+ApplicationDriver = 0;
+ApplicationStarter = 0;
+
+func OpenApplicationStarter() {
+  ApplicationStarter = 1;
+}
+
+func OpenApplicationDriver() {
+  ApplicationDriver = 1;
+}
+
+func OpenApplicationInterface() {
+  ApplicationInterface = 1;
+}
+
+var Application1;
+Application1 = 0;
+
+func OpenApplication1() {
+  OpenApplicationStarter();
+  OpenApplicationDriver();
+  OpenApplicationInterface();
+
+  Application1 = 1;
+}
