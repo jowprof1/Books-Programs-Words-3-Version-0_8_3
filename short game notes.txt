@@ -1,0 +1,30 @@
+game character
+chibi
+16px by 16px
+
+vector graphics
+bitmap graphics
+line
+line
+line
+line
+rect
+
+line (diagonal)
+
+rectangle with diagonal line through it
+
+quests
+score count
+
+save files
+script files
+loadable scripts
+runnable scripts
+runnable games
+
+usable text editor
+usable text editor script window
+usable text editor console window
+usable text editor shape and graphics window
+

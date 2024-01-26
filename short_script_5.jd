@@ -1,0 +1,20 @@
+var
+loadscript_GetStringClass_handle
+loadscript_GetStringClass_handle=1
+
+var
+lastrestextfile
+lastrestextfile=0
+
+func ResTextFileLoader
+var
+filename
+var
+filedata
+filename=1
+filedata=2
+var
+restextfile
+restextfile=lastrestextfile+1
+lastrestextfile=restextfile
+return restextfile
