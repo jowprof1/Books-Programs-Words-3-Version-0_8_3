@@ -1,21 +1,30 @@
 var
-gameScreenName
+mapdata_elem16
 var
-gameScreenDataName
-
-gameScreenName=1
-gameScreenDataName=2
-
+mapdata_elem17
 var
-loadedGameScreenData1
+mapdata_elem18
 var
-loadedGameScreenData2
+mapdata_elem19
+var
+mapdata_elem20
+var
+mapdata_elem21
 
-loadedGameScreenData1=0
-loadedGameScreenData2=0
+mapdata_elem16=0
+mapdata_elem17=0
+mapdata_elem18=0
+mapdata_elem19=0
+mapdata_elem20=0
+mapdata_elem21=0
 
-func makegamescreen
-loadedGameScreenData1=100
-loadedGameScreenData2=100
+func
+MakeDataElemList3
+mapdata_elem16=1
+mapdata_elem17=2
+mapdata_elem18=3
+mapdata_elem19=4
+mapdata_elem20=5
+mapdata_elem21=6
 return
 
