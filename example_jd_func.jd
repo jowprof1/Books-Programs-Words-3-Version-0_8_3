@@ -1,0 +1,9 @@
+func
+example_jd_func
+var
+myitem
+myitem=5
+return myitem
+
+example_jd_func()
+

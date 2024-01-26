@@ -1,0 +1,8 @@
+func example_jc_func() {
+var myitem;
+myitem=5;
+return myitem;
+}
+
+example_jc_func();
+

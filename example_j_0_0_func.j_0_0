@@ -1,0 +1,15 @@
+func
+example_j_0_0_func
+0
+1
+func_example_j_0_0_func
+call
+func_example_j_0_0_func
+2
+3
+call_func_example_j_0_0_func
+()
+2
+3
+call_func_example_j_0_0_func()
+
