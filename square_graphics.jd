@@ -1,0 +1,65 @@
+var
+folder_jd_include
+folder_jd_include=1
+
+var
+folder_rough_draft_2_4_jd_include
+folder_rough_draft_2_4_jd_include=1
+
+var
+array_jd_include
+array_jd_include=1
+
+var
+storedSquareGraphicsNameId
+
+storedSquareGraphicsNameId=0
+
+var
+storedSquareGraphicsArrayNameId
+
+storedSquareGraphicsArrayNameId=0
+
+var
+storedSquareGraphicsValueNumberFour
+storedSquareGraphicsValueNumberFour=0
+
+func
+square_graphics
+storedSquareGraphicsNameId=storedSquareGraphicsNameId+1
+MakeStoredArray()
+IncrementArrayElem1_Plus25()
+IncrementArrayElem2_Plus25()
+IncrementArrayElem3_Plus25()
+storedSquareGraphicsValueNumberFour=25
+return 0
+
+func example_function_number_one
+square_graphics()
+return 0
+
+var
+sent_squareGraphicsNameId
+var
+drawn_squareGraphicsNameId
+var
+drawn_to_graphicsCtxNameId
+
+sent_squareGraphicsNameId=0
+drawn_squareGraphicsNameId=0
+drawn_to_graphicsCtxNameId=0
+
+func
+DrawSquareGraphics
+sent_squareGraphicsNameId=storedSquareGraphicsNameId
+drawn_squareGraphicsNameId=storedSquareGraphicsNameId
+var
+temp_directXGraphicsCtxNameId=5001
+drawn_to_graphicsCtxNameId=temp_directXGraphicsCtxNameId
+return 0
+
+func
+example_function_number_two
+square_graphics()
+DrawSquareGraphics()
+return 0

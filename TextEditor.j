@@ -1,0 +1,4 @@
+var
+TextEditorScript12_jd_include
+TextEditorScript12_jd_include=1
+

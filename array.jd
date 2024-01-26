@@ -1,0 +1,122 @@
+var
+storedArrayNameId
+var
+storedArrayElem1
+var
+storedArrayElem2
+var
+storedArrayElem3
+
+var
+lastStoredArrayNameId
+
+storedArrayNameId=0
+storedArrayElem1=0
+storedArrayElem2=0
+storedArrayElem3=0
+
+lastStoredArrayNameId=0
+
+func
+MakeStoredArray
+var
+my_temp_array_nameid
+var
+my_temp_array_elem1
+var
+my_temp_array_elem2
+var
+my_temp_array_elem3
+my_temp_array_nameid=602
+my_temp_array_elem1=1
+my_temp_array_elem2=2
+my_temp_array_elem3=3
+storedArrayNameId=my_temp_array_nameid+lastStoredArrayNameId
+storedArrayElem1=my_temp_array_elem1
+storedArrayElem2=my_temp_array_elem2
+storedArrayElem3=my_temp_array_elem3
+lastStoredArrayNameId=storedArrayNameId
+return storedArrayNameId
+
+func
+UseStoredArray
+storedArrayElem1=storedArrayElem1+1
+storedArrayElem2=storedArrayElem2+2
+storedArrayElem3=storedArrayElem3+3
+return storedArrayNameId
+
+func
+UseStoredArrayElem1
+storedArrayElem1=storedArrayElem1+1
+return storedArrayNameId
+
+func
+UseStoredArrayElem2
+storedArrayElem2=storedArrayElem2+1
+return storedArrayNameId
+
+func
+UseStoredArrayElem3
+storedArrayElem3=storedArrayElem3+1
+return storedArrayNameId
+
+func
+IncrementArrayElem1
+storedArrayElem1=storedArrayElem1+1
+return storedArrayNameId
+
+func
+IncrementArrayElem2
+storedArrayElem2=storedArrayElem2+1
+return storedArrayNameId
+
+func
+IncrementArrayElem3
+storedArrayElem3=storedArrayElem3+1
+return storedArrayNameId
+
+func
+SubtractFromArrayElem1
+storedArrayElem1=storedArrayElem1-1
+return storedArrayNameId
+
+func
+SubtractFromArrayElem2
+storedArrayElem2=storedArrayElem2-1
+return storedArrayNameId
+
+func
+SubtractFromArrayElem3
+storedArrayElem3=storedArrayElem3-1
+return storedArrayNameId
+
+func
+IncrementArrayElem1_Plus25
+storedArrayElem1=storedArrayElem1+25
+return storedArrayNameId
+
+func
+IncrementArrayElem2_Plus25
+storedArrayElem2=storedArrayElem2+25
+return storedArrayNameId
+
+func
+IncrementArrayElem3_Plus25
+storedArrayElem3=storedArrayElem3+25
+return storedArrayNameId
+
+func
+IncrementArrayElem1_Plus100
+storedArrayElem1=storedArrayElem1+100
+return storedArrayNameId
+
+func
+IncrementArrayElem2_Plus100
+storedArrayElem2=storedArrayElem2+100
+return storedArrayNameId
+
+func
+IncrementArrayElem2_Plus100
+storedArrayElem2=storedArrayElem3+100
+return storedArrayNameId
+
