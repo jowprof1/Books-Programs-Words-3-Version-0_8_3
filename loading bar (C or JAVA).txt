@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(int argc, char** argv) {
+  printf("loading bar...\n");
+  printf("loading bar...\n");
+  printf("loading bar...\n");
+  printf("loading bar...\n");
+  printf("loading bar...\n");
+
+  return 0;
+}
