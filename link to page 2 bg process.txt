@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int should_quit;
+should_quit = 0;
+
+int script_1_slot_function(void) {
+  return 0;
+}
+
+int script_2_slot_function(void) {
+  return 0;
+}
+
+int script_3_slot_function(void) {
+  return 0;
+}
+
+int bg_process(void) {
+  script_1_slot_function();
+  script_2_slot_function();
+  script_3_slot_function();
+  return 0;
+}
+
+int main(int argc, char** argv) {
+
+  int i;
+  for(i = 0; i < 1000; i = i + 1) {
+    if(i == 999) {
+      bg_process();
+
+      if(should_quit) {
+        i = 999;
+      }
+      else {
+        i = 0;
+      }
+    }
+  }
+
+  return 0;
+
+}
