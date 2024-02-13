@@ -1,0 +1,8 @@
+func
+OpenCheapWindow3
+var
+directXMsg
+var
+crossPlatformMsg
+directXMsg=1
+crossPlatformMsg=1

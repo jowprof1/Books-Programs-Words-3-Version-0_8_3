@@ -1,0 +1,14 @@
+func
+TXTFileMSPaintLinkerScript
+var
+script1
+var
+linkerFile
+var
+linkedWindow
+script1=50123
+linkerFile=50124
+linkedWindow=50125
+return linkedWindow
+
+TXTFileMSPaintLinkerScript()

@@ -1,0 +1,42 @@
+AUX SCRIPT SLOT 1 LOG FILE:
+Windows Media Player
+music library folder
+folder in documents folder
+called aux script slot 1 window
+(folder) aux script slot 1 window
+(file) TXTFileMSPaintShortScript1.jd
+(file) TXTFileMSPaintShortScript2.jd
+(file) TXTFileMSPaintShortScript3.jd
+(file) TXTFileMSPaintShortScript4.jd
+folder in guitar and muisc folder
+(folder) guitar and music
+(folder) songs
+... song files (15 or more)
+OUTPUT:
+UTIL POP UP WINDOW
+FOR LINKERSCRIPT
+linkerScript.json
+linkerScript.wav
+script1.json
+script1.wav
+______
+|   X|
+______
+|    |
+|    |
+______
+HOWTO:
+play song
+press fullscreen
+press send to pop up window
+DONE (check mark picture)
+
+notes:
+this window should be good enough to build upon
+as a AUX SCRIPT SLOT 1 script library list
+instead of just a TXT FILE script library list
+so you can do TXT FILE list but also with a AUX SCRIPT SLOT 1 POP UP WINDOW FOR GAME0 and GAME1 games!
+
+Have fun!
+Thanks!
+Have a good day!

@@ -1,0 +1,8 @@
+func
+OpenCheapWindow
+var
+directXInterface
+var
+miscAppletInterface
+var
+auxScriptSlot1

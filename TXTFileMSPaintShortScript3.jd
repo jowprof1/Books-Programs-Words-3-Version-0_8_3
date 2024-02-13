@@ -1,0 +1,8 @@
+func
+OpenCheapWindow2
+var
+auxUtilPopUpMsgBox
+auxUtilPopUpMsgBox=40126
+var
+isOpenMsg
+isOpenMsg=1
