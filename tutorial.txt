@@ -1,0 +1,51 @@
+Easy EXE:
+
+GamePlayer.c
+
+->
+
+GamePlayer.exe
+
+Legacy Type EXE:
+
+GamePlayer.j
+
+->
+
+GamePlayer.applet
+GamePlayerScript.j
+GamePlayer.applet (shortcut)
+-> GamePlayer.exe (open with ...)
+
+Ideas, notes:
+
+GamePlayer.applet
+GamePlayerScript.j
+GamePlayer.applet (shortcut)
+GamePlayerScript2.jd
+GamePlayerScript3.jd
+GamePlayerScript4.jd
+GamePlayerScript5.jd
+GamePlayerAuxLoadingBarPicture.png
+EmptyWorkflowSystem (for) (.applet shortcut)
+(consitent, empty txt file process, bg process,
+workflow)
+(ai, loading bar)
+(might be good enough)
+
+(otherwise you have to make a j compiler
+for a long ass time still like
+a donation computer c compiler to exe)
+
+Maybe you should care less about the empty
+ai bg process workflow so you can finish
+the j compiler more quickly, or more
+easily. Thank you! Have a good day!
+
+signed,
+JHemdan
+
+Maybe it's good enough for me then, what I made
+and what I plan on making for this.
+Cool.
+Have a great day!

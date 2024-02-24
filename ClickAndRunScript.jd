@@ -1,0 +1,52 @@
+func
+MakeEmptyScript
+var
+fileBrowserInstance
+var
+clickAndRunPictureFile
+var
+clickAndRunTXTFile
+var
+clickAndRunShortCutFile
+var
+clickAndRunPremadeAppletFile
+fileBrowserInstance=70186
+clickAndRunPictureFile=70187
+clickAndRunTXTFile=70188
+clickAndRunShortCutFile=70189
+clickAndRunPremadeAppletFile=70190
+var
+emptyScript
+emptyScript=70171
+var
+emptyScript_Elem1
+emptyScript_Elem1=clickAndRunPremadeAppletFile
+return emptyScript
+
+func
+MakeAiPathScript
+return 70172
+
+func
+MakeParseScript
+return 70173
+
+func
+MakeRunScript
+return 70174
+
+func
+MakeScriptFile
+return 70175
+
+func
+MakeClickAndRunScriptFile
+return 70176
+
+func
+MakeTextFileScript
+return 70177
+
+func
+MakeRunnableFileScript
+return 70178

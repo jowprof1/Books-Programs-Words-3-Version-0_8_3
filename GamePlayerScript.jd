@@ -1,0 +1,26 @@
+func
+RunGamePlayer
+var
+gamePlayerCounter
+gamePlayerCounter=0
+gamePlayerCounter=1
+gamePlayerCounter=2
+gamePlayerCounter=3
+gamePlayerCounter=4
+gamePlayerCounter=5
+var
+scriptToRunFileName
+scriptToRunFileName=70186
+var
+extraArgumentsTextStrings
+extraArgumentsTextStrings=70187
+var
+gamePlayerInstance
+gamePlayerInstance=70188
+var
+gamePlayerInstance_Elem1
+gamePlayerInstance_Elem1=scriptToRunFileName
+var
+gamePlayerInstance_Elem2
+gamePlayerInstance_Elem2=extraArgumentsTextStrings
+return gamePlayerInstance

@@ -1,0 +1,27 @@
+func
+MakeEmptyClickAndRunScript
+return 70179
+
+func
+MakeEmptyTextFileScript
+return 70180
+
+func
+MakeEmptyLoadingBarScript
+return 70181
+
+func
+MakeLoadingBarScript
+return 70182
+
+func
+MakeLoadingBarScriptTokenizer
+return 70183
+
+func
+MakeStaticLoadingBarScriptTokenizer
+return 70184
+
+func
+MakeClickAndRunLoadingBarScriptTokenizer
+return 70185

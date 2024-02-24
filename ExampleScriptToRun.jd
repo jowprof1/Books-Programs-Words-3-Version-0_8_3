@@ -1,0 +1,12 @@
+func
+TempGameFunc
+var
+gameCounter
+gameCounter=0
+gameCounter=1
+gameCounter=2
+gameCounter=3
+gameCounter=4
+gameCounter=5
+
+TempGameFunc()
