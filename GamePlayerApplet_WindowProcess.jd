@@ -1,0 +1,9 @@
+func
+GamePlayerApplet_MakeWindowProcess
+var
+windowInstance
+var
+bgProcessInstance
+var
+windowInstance_Elem1
+return windowInstance
