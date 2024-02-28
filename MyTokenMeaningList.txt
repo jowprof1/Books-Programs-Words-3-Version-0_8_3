@@ -1,0 +1,62 @@
+My Token Meaning List:
+______________________
+
+Token 1
+Token Number: 1
+Integer Value: 70301
+Meaning String: Execute command, "var", "store var"
+CMD Number: 1
+CMD Integer Value: 70401
+CMD Meaning String: "cmd token, store var soon"
+Meaning SYNTAX Number: 1
+SYNTAX Integer Value: 70501
+Meaning EXECU Number: 1
+EXECU Integer Value: 70601
+
+Token 2
+Token Number: 2
+Integer Value: 70302
+Meaning String: Execute command, "a", "read line or words (a)"
+CMD Number: 2
+CMD Integer Value: 70402
+CMD Meaning String: "cmd token, read words (a) just now"
+Meaning SYNTAX Number: 2
+SYNTAX Integer Value: 70502
+Meaning EXECU Number: 2
+EXECU Integer Value: 70602
+
+Token 3
+Token Number: 3
+Integer Value: 70303
+Meaning String: Execute command, "b", "read line or words (b)"
+CMD Number: 3
+CMD Integer Value: 70403
+CMD Meaning String: "cmd token, read words (b) just now"
+Meaning SYNTAX Number: 3
+SYNTAX Integer Value: 70503
+Meaning EXECU Number: 3
+EXECU Integer Value: 70603
+
+Token 4
+Token Number: 
+Integer Value: 
+Meaning String: , "", ""
+CMD Number: 
+CMD Integer Value: 
+CMD Meaning String: ""
+Meaning SYNTAX Number: 
+SYNTAX Integer Value: 
+Meaning EXECU Number: 
+EXECU Integer Value: 
+
+Token 5
+Token Number: 
+Integer Value: 
+Meaning String: , "", ""
+CMD Number: 
+CMD Integer Value: 
+CMD Meaning String: ""
+Meaning SYNTAX Number: 
+SYNTAX Integer Value: 
+Meaning EXECU Number: 
+EXECU Integer Value: 
