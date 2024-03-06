@@ -1,0 +1,15 @@
+var
+cur_parsed_token_list_index
+cur_parsed_token_list_index=0
+
+var
+stored_parsed_token_list_length
+stored_parsed_token_list_length=50
+
+cur_parsed_token_index=1
+cur_parsed_token_index=2
+cur_parsed_token_index=3
+
+var
+cmd_token
+cmd_token=33

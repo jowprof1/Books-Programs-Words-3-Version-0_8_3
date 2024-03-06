@@ -38,25 +38,157 @@ Meaning EXECU Number: 3
 EXECU Integer Value: 70603
 
 Token 4
-Token Number: 
-Integer Value: 
-Meaning String: , "", ""
-CMD Number: 
-CMD Integer Value: 
-CMD Meaning String: ""
-Meaning SYNTAX Number: 
-SYNTAX Integer Value: 
-Meaning EXECU Number: 
-EXECU Integer Value: 
+Token Number: 4
+Integer Value: 70304
+Meaning String: Execute command, "a=1", "set variable a to value 1"
+CMD Number: 4
+CMD Integer Value: 70404
+CMD Meaning String: "cmd token, set var a to 1 just now"
+Meaning SYNTAX Number: 4
+SYNTAX Integer Value: 70504
+Meaning EXECU Number: 4
+EXECU Integer Value: 70604
 
 Token 5
+Token Number: 5
+Integer Value: 70305
+Meaning String: Execute command, "b=50", "set variable b to value 50"
+CMD Number: 5
+CMD Integer Value: 70405
+CMD Meaning String: "cmd token, set var b to 50 just now"
+Meaning SYNTAX Number: 5
+SYNTAX Integer Value: 70505
+Meaning EXECU Number: 5
+EXECU Integer Value: 70605
+
+Token 6
+Token Number: 6
+Integer Value: 70306
+Meaning String: Execute command, "c=175", "set variable c to value 175"
+CMD Number: 6
+CMD Integer Value: 70406
+CMD Meaning String: "cmd token, set var c to 175"
+Meaning SYNTAX Number: 6
+SYNTAX Integer Value: 70506
+Meaning EXECU Number: 6
+EXECU Integer Value: 70606
+
+Token 7
+Token Number: 7
+Integer Value: 70307
+Meaning String: Execute command, "\n", "newline, read this empty line and continue"
+CMD Number: 7
+CMD Integer Value: 70407
+CMD Meaning String: "cmd token, read newline, continue to next line"
+Meaning SYNTAX Number: 7
+SYNTAX Integer Value: 70507
+Meaning EXECU Number: 7
+EXECU Integer Value: 70607
+
+Token 8
+Token Number: 8
+Integer Value: 70308
+Meaning String: Execute command, "func", "read word func, and prepare a function soon"
+CMD Number: 8
+CMD Integer Value: 70408
+CMD Meaning String: "cmd token, prepare a function soon, next line"
+Meaning SYNTAX Number: 8
+SYNTAX Integer Value: 70508
+Meaning EXECU Number: 8
+EXECU Integer Value: 70608
+
+Token 9
+Token Number: 9
+Integer Value: 70309
+Meaning String: Execute command, "TempFunc", "read word TempFunc, and prepare named function called TempFunc"
+CMD Number: 9
+CMD Integer Value: 70409
+CMD Meaning String: "cmd token, prepare a function named TempFunc, called TempFunc soon"
+Meaning SYNTAX Number: 9
+SYNTAX Integer Value: 70509
+Meaning EXECU Number: 9
+EXECU Integer Value: 70609
+
+Token 10
+Token Number: 10
+Integer Value: 70310
+Meaning String: Execute command, "read word or line (y)", "make variable called (y)"
+CMD Number: 10
+CMD Integer Value: 70410
+CMD Meaning String: "cmd token, read a word or line that says (y) just now"
+Meaning SYNTAX Number: 10
+SYNTAX Integer Value: 70510
+Meaning EXECU Number: 10
+EXECU Integer Value: 70610
+
+Token 11
+Token Number: 11
+Integer Value: 70311
+Meaning String: Execute command, "read word or line (y = a)", "set variable y to value of the variable called (a)"
+CMD Number: 11
+CMD Integer Value: 70412
+CMD Meaning String: "cmd token, set variable called (y) to value of variable called (a)"
+Meaning SYNTAX Number: 11
+SYNTAX Integer Value: 70512
+Meaning EXECU Number: 11
+EXECU Integer Value: 70612
+
+Token 12
+Token Number: 12
+Integer Value: 70312
+Meaning String: Execute command, "read word or line (y=y+b)", "set variable y to value of (y+b)"
+CMD Number: 12
+CMD Integer Value: 70412
+CMD Meaning String: "cmd token, set variable called (y) to value of variable called (y+b)"
+Meaning SYNTAX Number: 12
+SYNTAX Integer Value: 70512
+Meaning EXECU Number: 12
+EXECU Integer Value: 70612
+
+Token 13
+Token Number: 13
+Integer Value: 70313
+Meaning String: Execute command, "read word or line (y=y+c)", "set variable y to value of (y+c)"
+CMD Number: 13
+CMD Integer Value: 70413
+CMD Meaning String: "cmd token, set variable called (y) to value of variable called (y+c)"
+Meaning SYNTAX Number: 13
+SYNTAX Integer Value: 70513
+Meaning EXECU Number: 13
+EXECU Integer Value: 70613
+
+Token 
 Token Number: 
 Integer Value: 
 Meaning String: , "", ""
 CMD Number: 
 CMD Integer Value: 
-CMD Meaning String: ""
-Meaning SYNTAX Number: 
-SYNTAX Integer Value: 
-Meaning EXECU Number: 
-EXECU Integer Value: 
+CMD Meaning String: ", "
+Meaning SYNTAX Number:
+SYNTAX Integer Value:
+Meaning EXECU Number:
+EXECU Integer Value:
+
+Token 
+Token Number: 
+Integer Value: 
+Meaning String: , "", ""
+CMD Number: 
+CMD Integer Value: 
+CMD Meaning String: ", "
+Meaning SYNTAX Number:
+SYNTAX Integer Value:
+Meaning EXECU Number:
+EXECU Integer Value:
+
+Token 
+Token Number: 
+Integer Value: 
+Meaning String: , "", ""
+CMD Number: 
+CMD Integer Value: 
+CMD Meaning String: ", "
+Meaning SYNTAX Number:
+SYNTAX Integer Value:
+Meaning EXECU Number:
+EXECU Integer Value:
