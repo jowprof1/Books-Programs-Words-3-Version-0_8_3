@@ -1,0 +1,40 @@
+Stored Token X (Line Or Words):
+
+Stored Token X: var
+Stored Token X: a
+Stored Token X: var
+Stored Token X: b
+Stored Token X: var
+Stored Token X: c
+Stored Token X: 
+Stored Token X: a=1
+Stored Token X: b=50
+Stored Token X: c=175
+Stored Token X: 
+Stored Token X: func
+Stored Token X: TempFunc
+Stored Token X: var
+Stored Token X: y
+Stored Token X: y=a
+Stored Token X: y=y+b
+Stored Token X: y=y+c
+Stored Token X: return y
+Stored Token X: 
+Stored Token X: var
+Stored Token X: d
+Stored Token X: 
+Stored Token X: d=TempFunc()
+Stored Token X: 
+Stored Token X: var
+Stored Token X: storedPrintValue
+Stored Token X: storedPrintValue=0
+Stored Token X: 
+Stored Token X: func
+Stored Token X: Print
+Stored Token X: var
+Stored Token X: printFile
+Stored Token X: printFile=storedPrintValue
+Stored Token X: 
+Stored Token X: storedPrintValue=d
+Stored Token X: Print()
+Stored Token X: 

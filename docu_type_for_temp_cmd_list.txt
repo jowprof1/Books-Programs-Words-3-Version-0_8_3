@@ -1,0 +1,55 @@
+docu_type
+text_file
+(documentation type)
+(text file)
+temp_cmd_list.txt
+line 1 "store var soon"
+line 2 "read line or words (a) just now"
+line 3 "read line or words (b) just now"
+line 4 "read line or words (a) just now"
+line 5 "read line or words (b) just now"
+line 6 "read line or words (a) just now"
+line 7 store var soon"
+line 8 read line or words (a) just now"
+
+code file that this would be:
+temp_cmd_list.jd
+var
+a
+b
+a
+b
+a
+var
+a
+
+a better code file than this could be:
+temp_cmd_list_2.jd
+var
+a
+a=50
+var
+b
+b=60
+var
+c
+c=a+b
+
+func
+Print
+var
+printFile
+printFile=c
+return printFile
+
+Print()
+
+Token CMD Value(s) needed for this:
+
+New Token 1: a=50
+New Token 2: b=60
+New Token 3: c=a+b
+New Token 4: Print
+New Token 5: printFile
+New Token 6: printFile=c
+New Token 7: c

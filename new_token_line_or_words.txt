@@ -1,0 +1,16 @@
+New Token Line Or Word(s):
+
+return y
+var
+d
+d=TempFunc()
+var
+storedPrintValue
+storedPrintValue=0
+func
+Print
+var
+printFile
+printFile=storedPrintValue
+storedPrintValue=d
+Print()

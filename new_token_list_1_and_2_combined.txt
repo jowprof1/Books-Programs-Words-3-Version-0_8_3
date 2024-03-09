@@ -1,0 +1,18 @@
+New Token List:
+
+New Token 1: return y
+New Token 2: d
+New Token 3: d=TempFunc()
+New Token 4: storedPrintValue
+New Token 5: storedPrintValue=0
+New Token 6: printFile=c
+New Token 7: printFile=storedPrintValue
+New Token 8: storedPrintValue=d
+New Token 9: Print()
+New Token 10: a=50
+New Token 11: b=60
+New Token 12: c=a+b
+New Token 13: Print
+New Token 14: printFile
+New Token 15: printFile=c
+New Token 16: c

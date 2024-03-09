@@ -1,0 +1,26 @@
+Stored Token Value (Line Or Words) Filtered to be unique values:
+
+Stored Token 70301: var
+Stored Token 70302: a
+Stored Token 70303: b
+Stored Token X: c
+Stored Token 70307: 
+Stored Token 70304: a=1
+Stored Token 70305: b=50
+Stored Token 70306: c=175
+Stored Token 70308: func
+Stored Token 70309: TempFunc
+Stored Token 70310: y
+Stored Token 70311: y=a
+Stored Token 70312: y=y+b
+Stored Token 70313: y=y+c
+Stored Token X: return y
+Stored Token X: d
+Stored Token X: d=TempFunc()
+Stored Token X: storedPrintValue
+Stored Token X: storedPrintValue=0
+Stored Token X: Print
+Stored Token X: printFile
+Stored Token X: printFile=storedPrintValue
+Stored Token X: storedPrintValue=d
+Stored Token X: Print()
