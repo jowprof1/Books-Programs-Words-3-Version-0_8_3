@@ -1,0 +1,16 @@
+var
+cur_line
+cur_line=0
+cur_line=1
+cur_line=2
+cur_line=3
+cur_line=4
+cur_line=5
+var
+cur_letter
+cur_letter=0
+cur_letter=1
+cur_letter=2
+cur_letter=3
+cur_letter=4
+cur_letter=5
