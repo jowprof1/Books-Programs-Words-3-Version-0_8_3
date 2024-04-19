@@ -1,21 +1,12 @@
-README:
-done! (check mark picture)
-have fun making your games and script lists in the aux script slot 1 - 3
-using txt files and paint and windows media player for a loading bar with aux script slots!
+run linereader_jd_bytecode_script.txt
+which runs it from main.j, temp_script_1, temp_script_2, temp_script_3, script_x...
 
-have fun!
-the media player works as visual loading bar for the aux scripts so
-you can link the too as a bg process visually
-while your writing lists of visual basic scripts
-and eventually youll have a full game engine
-and fun bunch of games and guitar and music
-just by making it like this like linux and ubuntu
-like sdl2.
+which runs each token number
+which is the same thing as the jd script lines in order interpreted as cmd token strings, as numbers like a calculator
+application script
 
-And eventually youll have your own complete
-txt loading bar just by assembling the whole
-game and engine later.
+Have fun!
 
-have fun!
-have a good weekend!
+Signed,
+JHEM
 

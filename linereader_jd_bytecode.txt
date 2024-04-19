@@ -1,0 +1,82 @@
+echo "CMD store var soon" 39
+echo "CMD var name is cur_line" 40
+echo "CMD set var soon" 41
+echo "CMD var name is cur_line" 42
+echo "CMD dest value is 0" 43
+echo "CMD set var soon" 44
+echo "CMD var name is cur_line" 45
+echo "CMD dest value is 1" 46
+echo "CMD set var soon" 47
+echo "CMD var name is cur_line" 48
+echo "CMD dest value is 2" 49
+echo "CMD set var soon" 50
+echo "CMD var name is cur_line" 51
+echo "CMD dest value is 3" 52
+echo "CMD set var soon" 53
+echo "CMD var name is cur_line" 54
+echo "CMD dest value is 4" 55
+echo "CMD set var soon" 56
+echo "CMD var name is cur_line" 57
+echo "CMD dest value is 5" 58
+echo "CMD store var soon" 59
+echo "CMD var name is cur_letter" 60
+echo "CMD set var soon" 61
+echo "CMD var name is cur_letter" 62
+echo "CMD dest value is 0" 63
+echo "CMD var name is cur_letter" 64
+echo "CMD dest value is 1" 65
+echo "CMD set var soon" 66
+echo "CMD var name is cur_letter" 67
+echo "CMD dest value is 2" 68
+echo "CMD set var soon" 69
+echo "CMD var name is cur_letter" 70
+echo "CMD dest value is 3" 71
+echo "CMD set var soon" 72
+echo "CMD var name is cur_letter" 73
+echo "CMD dest value is 4" 74
+echo "CMD set var soon" 75
+echo "CMD var name is cur_letter" 76
+echo "CMD dest value is 5" 77
+echo "done making the CMD tokens list" 78
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+
+
