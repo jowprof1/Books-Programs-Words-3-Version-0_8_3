@@ -1,0 +1,10 @@
+Work Log:
+_________
+
+window_folders_screen.bat (19 lines)
+window_folders_screen_animated.bat (120 lines) 
+window_folders_screen_animated_2.bat (480 lines)
+window_folders_screen_animated_3.bat (2400 lines)
+window_folders_screen_animated_4.bat (1338 lines)
+
+

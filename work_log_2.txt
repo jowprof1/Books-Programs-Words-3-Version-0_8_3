@@ -1,0 +1,5 @@
+Work Log:
+________
+
+compile_and_run_linereader_jd_script_fully.bat (130 lines)
+compile_and_run_linereader_jd_script_cycleloop_entrypoint.bat (10 lines)
