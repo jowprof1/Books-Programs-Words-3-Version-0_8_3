@@ -1,0 +1,13 @@
+Work Log:
+_________
+
+compile_and_run_linereader_jd_script_3.bat (25 lines)
+BooksProgramsWords3_Drawing3.png
+BooksProgramsWords3_BlankScreenTemplateDrawing.png
+BooksProgramsWords3_RotatingCubeDrawing1.png
+BooksProgramsWords3_RotatingCubeDrawing2.png
+BooksProgramsWords3_RotatingCubeDrawing3.png
+BooksProgramsWords3_RotatingCubeDrawing4.png
+BooksProgramsWords3_RotatingCubeDrawing5.png
+BooksProgramsWords3_RotatingCubeDrawing6.png
+
