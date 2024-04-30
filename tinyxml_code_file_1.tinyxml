@@ -1,0 +1,21 @@
+<tinyxml>
+
+<label_1>
+<p>
+This is a paragraph for label 1.
+</p>
+</label_1>
+
+<label_2>
+This is a paragraph for label 2.
+</label_2>
+
+<label_3>
+This is a paragraph for label 3.
+</label_3>
+
+<label_4>
+This is a paragraph for label 4.
+</label_4>
+
+</tinyxml>
