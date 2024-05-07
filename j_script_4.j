@@ -1,0 +1,18 @@
+var text_editor;
+var editor_item;
+var editor_item_2;
+var editor_item_3;
+text_editor = 1;
+editor_item = 2;
+editor_item_2 = 3;
+editor_item_3 = 4;
+var quest;
+var topic;
+var level;
+var acheivment;
+var quest_points;
+quest = 5;
+topic = 6;
+level = 7;
+acheivment = 8;
+quest_points = 0;
