@@ -1,25 +1,6 @@
-ECHO #####
-ECHO abcde
-ECHO 12345
-ECHO -----
-ECHO +++++
-ECHO #####
-ECHO      
-ECHO      
-ECHO      
-ECHO
-ECHO #####
-ECHO abcde
-ECHO 12345
-ECHO -----
-ECHO +++++
-ECHO #####
-ECHO      
-ECHO      
-ECHO      
-ECHO
-ECHO #####
-ECHO      
-ECHO      
-ECHO      
-ECHO
+echo "c_script"
+echo "j_script"
+echo "c_bytecode"
+echo "j_bytecode"
+echo "1"
+echo "1"

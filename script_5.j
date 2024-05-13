@@ -1,0 +1,10 @@
+var quest_book;
+var notebook;
+var computer;
+var quest;
+var quest_points;
+quest_book = 1;
+notebook = 2;
+computer = 3;
+quest = 4;
+quest_points = 5;
