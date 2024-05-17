@@ -1,0 +1,8 @@
+echo "game script"
+echo "1"
+echo "2"
+echo "3"
+echo "print 1"
+echo "print 2"
+echo "print 3"
+echo "done running game script..."
