@@ -1,0 +1,35 @@
+var variablesArrayList = 1;
+var elem0 = 0;
+var elem1 = 0;
+var elem2 = 0;
+var elem3 = 0;
+var elem4 = 0;
+
+var myFuncArrayList = 2;
+var func_elem0 = 0;
+
+var name_player = 1;
+var name_levels = 2;
+var name_levelElem0 = 3;
+var name_levelElem1 = 4;
+var name_levelElem2 = 5;
+
+var name_func_PlayGame = 6;
+var name_playerX = 7;
+var name_playerY = 8;
+
+var name_exec_setPlayerToOne = 9;
+var name_exec_setLevelsToTwo = 10;
+var name_exec_setLevelElem0ToThree = 11;
+var name_exec_setLevelElem1ToFour = 12;
+var name_exec_setLevelElem2ToFive = 13;
+
+var name_func_PlayGame_declare = 14;
+var name_exec_setPlayerXToZero = 15;
+var name_exec_setPlayerYToZero = 16;
+
+var name_exec_setPlayerYToTen = 17;
+var name_exec_setPlayerXToZero = 18;
+
+var name_exec_setPlayerYToZero = 19;
+var name_exec_setPlayerXToZero = 20;

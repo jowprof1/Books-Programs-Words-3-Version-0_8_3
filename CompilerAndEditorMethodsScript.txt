@@ -1,0 +1,40 @@
+var myCompiler = 1;
+var myEditor = 2;
+
+func CollectWords() {
+  var script = 1;
+  var elems = 2;
+  var storedElem = 0;
+  var iterator = 0;
+  storedElem = 0;
+  iterator = iterator + 1;
+  storedElem = 1;
+  iterator = iterator + 1;
+  storedElem = 2;
+}
+
+func CompileMethod() {
+  var keyWords = 1;
+  var linesOfCodeWords = 2;
+  CollectWords();
+}
+
+func ProcessScripts() {
+  var scriptList = 1;
+  var iterator = 0;
+  var storedElem = 0;
+  iterator = 0;
+  storedElem = 0;
+  iterator = iterator + 1;
+  storedElem = 1;
+  iterator = iterator + 1;
+  storedElem = 2;
+}
+
+func EditorMethod() {
+  var window1 = 1;
+  var window2 = 2;
+  var window3 = 3;
+  var textEditorWindow = 4;
+  ProcessScripts();
+}

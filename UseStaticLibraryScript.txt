@@ -1,0 +1,8 @@
+var include_UseStaticLibraryClass = 1;
+var include_ArrayListClass = 2;
+
+func UseStaticLibrary();
+func MakeArrayList();
+
+var myArrayList = 1;
+MakeArrayList();

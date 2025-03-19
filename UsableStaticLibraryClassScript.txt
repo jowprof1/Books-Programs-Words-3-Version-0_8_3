@@ -1,0 +1,11 @@
+var UsableStaticLibraryClass = 2;
+
+func UseStaticLibrary() {
+  var include = 1;
+  var staticMethods = 2;
+  var usableMethods = 3;
+  var usableStoredVariables = 4;
+  var forwardDeclareVariables = 5;
+  var forwardDeclareMethods = 6;
+  var forwardDeclareClasses = 7;
+}

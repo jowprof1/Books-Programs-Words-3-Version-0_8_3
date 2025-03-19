@@ -1,0 +1,16 @@
+var player = 1;
+var levels = 2;
+var levelElem0 = 3;
+var levelElem1 = 4;
+var levelElem2 = 5;
+
+func PlayGame() {
+  var playerX = 0;
+  var playerY = 0;
+
+  playerY = 10;
+  playerX = 0;
+
+  playerY = 0;
+  playerX = 0;
+}

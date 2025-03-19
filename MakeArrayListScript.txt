@@ -1,0 +1,11 @@
+var arrayListClass = 1;
+
+var storedElem0 = 0;
+var storedElem1 = 0;
+var storedElem2 = 0;
+
+func MakeArrayList() {
+  storedElem0 = 0;
+  storedElem1 = 0;
+  storedElem2 = 0;
+}
